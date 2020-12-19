@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/REACT_PF-1/static/css/main.7964a516.chunk.css",
+    "main.js": "/REACT_PF-1/static/js/main.8e6f5e16.chunk.js",
+    "main.js.map": "/REACT_PF-1/static/js/main.8e6f5e16.chunk.js.map",
+    "runtime-main.js": "/REACT_PF-1/static/js/runtime-main.a1f05b0f.js",
+    "runtime-main.js.map": "/REACT_PF-1/static/js/runtime-main.a1f05b0f.js.map",
+    "static/css/2.05261911.chunk.css": "/REACT_PF-1/static/css/2.05261911.chunk.css",
+    "static/js/2.2b889a5e.chunk.js": "/REACT_PF-1/static/js/2.2b889a5e.chunk.js",
+    "static/js/2.2b889a5e.chunk.js.map": "/REACT_PF-1/static/js/2.2b889a5e.chunk.js.map",
+    "index.html": "/REACT_PF-1/index.html",
+    "static/css/2.05261911.chunk.css.map": "/REACT_PF-1/static/css/2.05261911.chunk.css.map",
+    "static/css/main.7964a516.chunk.css.map": "/REACT_PF-1/static/css/main.7964a516.chunk.css.map",
+    "static/js/2.2b889a5e.chunk.js.LICENSE.txt": "/REACT_PF-1/static/js/2.2b889a5e.chunk.js.LICENSE.txt",
+    "static/media/ProfileImage.58f71b78.jpg": "/REACT_PF-1/static/media/ProfileImage.58f71b78.jpg",
+    "static/media/smokeLogo1.65c37787.png": "/REACT_PF-1/static/media/smokeLogo1.65c37787.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1f05b0f.js",
+    "static/css/2.05261911.chunk.css",
+    "static/js/2.2b889a5e.chunk.js",
+    "static/css/main.7964a516.chunk.css",
+    "static/js/main.8e6f5e16.chunk.js"
+  ]
+}
