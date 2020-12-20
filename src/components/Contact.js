@@ -28,7 +28,7 @@ class Contact extends Component {
     };
 
     const response = await axios.post(
-      "http://127.0.0.1:9000/api/contact",
+      "https://flask-backend-harsh2.herokuapp.com//api/contact",
       newContact
     );
     const isSuccessful = response.data.isSuccessful;

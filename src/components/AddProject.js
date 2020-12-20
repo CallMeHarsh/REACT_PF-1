@@ -39,7 +39,7 @@ class AddProject extends Component {
           body: this.state.body,
         };
 
-        const response = await axios.post("http://127.0.0.1:9000/api/project", newProject);
+        const response = await axios.post("https://flask-backend-harsh2.herokuapp.com//api/project", newProject);
 
         const isSuccessful = response.data.isSuccessful;
 

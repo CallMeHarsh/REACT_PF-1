@@ -147,10 +147,10 @@ export class Provider extends Component {
     async componentDidMount() {
 
         const [responseRecommendations, responseSkills, responseProjects, responseBlogs] = await Promise.all([
-            axios.get("http://127.0.0.1:9000/api/recommendations"),
-            axios.get("http://127.0.0.1:9000/api/skills"),
-            axios.get("http://127.0.0.1:9000/api/projects"),
-            axios.get("http://127.0.0.1:9000/api/blogs"),
+            axios.get("https://flask-backend-harsh2.herokuapp.com//api/recommendations"),
+            axios.get("https://flask-backend-harsh2.herokuapp.com//api/skills"),
+            axios.get("https://flask-backend-harsh2.herokuapp.com//api/projects"),
+            axios.get("https://flask-backend-harsh2.herokuapp.com//api/blogs"),
         ]);
 
         const newState = {};
@@ -184,7 +184,7 @@ export class Provider extends Component {
         }
         
         this.setState(newState);      
-        // let response = await axios.get("http://127.0.0.1:9000/api/recommendations");
+        // let response = await axios.get("https://flask-backend-harsh2.herokuapp.com//api/recommendations");
         // console.log(response)
         // if (response.data.isSuccessful && response.data.results.length != 0) {
         //     this.setState({
@@ -193,7 +193,7 @@ export class Provider extends Component {
         // }
 
 
-        // response = await axios.get("http://127.0.0.1:9000/api/projects");
+        // response = await axios.get("https://flask-backend-harsh2.herokuapp.com//api/projects");
         // console.log(response)
         // if (response.data.isSuccessful && response.data.results.length != 0) {
         //     this.setState({
@@ -202,7 +202,7 @@ export class Provider extends Component {
         // }
 
 
-        // response = await axios.get("http://127.0.0.1:9000/api/projects");
+        // response = await axios.get("https://flask-backend-harsh2.herokuapp.com//api/projects");
         // console.log(response)
         // if (response.data.isSuccessful && response.data.results.length != 0) {
         //     this.setState({
@@ -210,7 +210,7 @@ export class Provider extends Component {
         //     });
         // }
 
-        // response = await axios.get("http://127.0.0.1:9000/api/blogs");
+        // response = await axios.get("https://flask-backend-harsh2.herokuapp.com//api/blogs");
         // console.log(response)
         // if (response.data.isSuccessful && response.data.results.length != 0) {
         //     this.setState({

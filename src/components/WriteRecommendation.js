@@ -33,7 +33,7 @@ class WriteRecommendation extends Component {
     };
 
     const response = await axios.post(
-      "http://127.0.0.1:9000/api/recommendation",
+      "https://flask-backend-harsh2.herokuapp.com//api/recommendation",
       newRecommendation
     );
     const isSuccessful = response.data.isSuccessful;

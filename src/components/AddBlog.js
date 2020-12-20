@@ -40,7 +40,7 @@ class AddBlog extends Component {
     };
 
     const response = await axios.post(
-      "http://127.0.0.1:9000/api/blog",
+      "https://flask-backend-harsh2.herokuapp.com//api/blog",
       newBlog
     );
 
